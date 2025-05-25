@@ -1,6 +1,37 @@
 {
+<<<<<<< HEAD
   "dependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
+=======
+  "name": "twitter-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "backend/server.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon backend/server.js",
+    "start": "cross-env NODE_ENV=production node backend/server.js",
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^2.2.0",
+    "cloudinary": "^2.6.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.15.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^3.1.0"
+>>>>>>> a365c86923abe1cb1aaf289cb8a4d8efc9e09d64
   }
 }
